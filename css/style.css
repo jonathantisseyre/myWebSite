@@ -1,0 +1,372 @@
+
+header .row{
+    min-height: 80vh;
+    background-image: url(../images/img-header.jpg);
+
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+    color: white;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+
+}
+.nav-pills a {
+    font-family: 'Raleway', sans-serif;
+}
+header .form-reserver{
+    background-color: rgba(0,0,0,0.5);
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+
+
+}
+
+header h1{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+header h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+
+}
+
+header .slogan{
+    display: flex;
+    min-height: 70vh;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+.sec1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+#section1 .media{
+    -webkit-clip-path: polygon(0 0, 100% 4%, 100% 94%, 0 100%);
+    clip-path: polygon(0 0, 100% 4%, 100% 94%, 0 100%);
+
+}
+
+#dLabel h2{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 1vh;
+
+}
+#dLabel{
+    min-width: 50vh;
+    background-color: white;
+    border: solid 1px red;
+    cursor: pointer;
+    transition:  all .3s ease-in-out;
+    border-radius: 3px;
+}
+
+#dLabel:hover{
+    background-color: red;
+
+}
+#section3 .media span{
+    color: red;
+    font-size: 3rem;
+    width: 4rem;
+    text-align: center;
+}
+
+
+#section3 .media{
+    transition: all .3s ease-in-out;
+    padding: .5rem 1rem;
+
+    border-radius: 3px;
+
+
+}
+
+#section3 .media:hover{
+    background-color: rgba(128, 128, 128, 0.5);
+
+
+}
+
+.img-use1{
+    height:65PX;
+    width: 50px;
+    background-image: url(../images/android-chrome-192x192.png);
+    background-size: cover;
+    background-position: center;
+}
+.img-use2{
+    height:65PX;
+    width: 50px;
+    background-image: url(../images/brackets-icon.png);
+    background-size: cover;
+    background-position: center;
+}
+.img-use3{
+    height:65PX;
+    width: 50px;
+    background-image: url(../images/cmder_green.ico);
+    background-size: cover;
+    background-position: center;
+}
+#section2{
+
+
+    -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 94%);
+    clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 94%);
+}
+
+.pic-sec2{
+    background-image: url(../images/img-header.jpg);
+
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: calc(100vh - 50px);
+}
+
+
+
+.lign-sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(100vh - 50px);
+    background-color: #d3dae4;
+
+
+
+}
+
+.lign-sec2 span{
+    font-size: 5rem;
+    color: #17a2b8;
+}
+
+.lign-sec2 h5{
+    margin-top: 4px;
+    font-size: 2rem;
+    color: #888;
+
+}
+
+#cv-intro .rect-blanc {
+    background-color: rgba(255,255,255,.7);
+    min-height: 25vh;
+    min-width: 20vh;
+    top: 30vh;
+
+
+}
+#cv-intro .rect-blanc p{
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.25;
+    letter-spacing: 12px;
+    text-align: center;
+    padding-top: 7vh;
+
+
+}
+
+
+
+
+#cv .media span{
+    color: red;
+    font-size: 1rem;
+    width: 4rem;
+    text-align: center;
+
+
+}
+.mes-sites{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #d3dae4;
+
+
+}
+
+#pr-pas {
+     -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
+}
+
+
+
+
+#pr-pas .rect-blanc {
+    background-color: rgba(255,255,255,.7);
+    min-height: 25vh;
+    min-width: 20vh;
+    top: 30vh;
+    /*    border: solid;*/
+
+
+}
+#pr-pas .rect-blanc p{
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.25;
+    letter-spacing: 12px;
+    text-align: center;
+
+}
+
+.mes-sites span {
+    font-size: 5rem;
+    color: #17a2b8;
+
+}
+
+.list-site{
+    padding-top: 5vh;
+}
+
+
+
+.list-site span{
+    font-size: 2rem;
+}
+
+
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+}
+
+.thx {
+    background-color: grey;
+    height: 25vh
+}
+
+.thx p {
+    color: aliceblue;
+
+    padding-top: 3vh;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
+
+footer{
+    background-color: #333333;
+    color: #999;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+footer button{
+    color: #999;
+    font-size: 4rem;
+    transition: .2s ease-in-out;
+    background-color: #333333;
+    border: none;
+    cursor: pointer;
+    padding-left: 30px;
+
+}
+footer button:hover{
+    color: #fff;
+    text-decoration: none;
+    font-size: 4rem;
+
+
+}
+
+.motiv{
+    opacity: 0;
+
+}
+
+.sec2-opac{
+    opacity: 0;
+}
+
+.sec2-opac2{
+    opacity: 0;
+}
+
+.stud-cv{
+    opacity: 0;
+
+}
+
+.exp-cv{
+    opacity: 0;
+
+
+}
+.vignets {
+    opacity: 1;
+
+    -webkit-transition: opacity 2.3s ease-in-out;
+    -moz-transition: opacity 2.3s ease-in-out;
+    -o-transition: opacity 2.3s ease-in-out;
+    -ms-transition: opacity 2.3s ease-in-out;
+    transition: opacity 2.3s ease-in-out;
+}
+
+
+
+/* ============ RESPONSIVE ============== */
+/* Extra small devices  (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    header .slogan{
+        display: none;
+    }
+    .fade p {
+        line-height: 1.3em;
+
+    }
+
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    header .slogan{
+        display: none;
+    }
+    .thx {
+        background-color: grey;
+        height: 45vh
+    }
+
+    .thx p {
+        color: aliceblue;
+
+        padding-top: 3vh;
+        font-weight: 400;
+        font-size: 0.85rem;
+        letter-spacing: 0.1rem;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { ... }
+
+/* Extra large devices (large desktops)*/
+/* No media query since the extra-large breakpoint has no upper bound on its width */
